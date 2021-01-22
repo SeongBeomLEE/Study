@@ -1,3 +1,4 @@
+from lightgbm import LGBMClassifier
 """
 Chapter 2
 Python Advanced(2) - Context Manager Annotation
