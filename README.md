@@ -3,11 +3,15 @@
 Machine-Learning-Engineer-Interview 질문 정리
 
 ## 확률과 통계
+- 통계학이란
+
 - 선험적 확률과 경험적 확률
 
 - 기댓값, 분산, 공분산, 상관계수, 공분산 행렬
 
 - 확률변수, 확률 분포, 확률 밀도 함수, 누적 분포 함수, 확률 질량 함수, 누적 질량 함수
+
+- 모수적 모델, 비모수적 모델
 
 - 이항 분포
 
@@ -31,6 +35,24 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - 귀무가설과 대립가설
 
+- p-value
+
+- 신뢰 구간
+
+- 1종 오류와 2종 오류
+
+- 빈도주의 통계와 베이지안 통계
+
+- 베이즈 정리
+
+- Maximum Likelihood Estimation와 Maximum A Posterior
+
+- Entorpy외 정보 이론
+
+- MSE와 CE
+
+- KL-Divergence
+
 - 감마 분포
     - https://m.blog.naver.com/mykepzzang/220842759639
 
@@ -39,39 +61,15 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - confusion matrix
 
-- 귀무가설과 대립가설
-
-- p-value의 의미
-
-- 신뢰 구간의 의미
-
-- 1종 오류와 2종 오류
+- Boxplot
 
 - 평균과 중앙값
 
-- 표본과 표준 오차
-
-- 빈도주의 VS 베이지안
-
-- Maximum Likelihood Estimation
-
-- Maximum A Posterior
-
-- KL-Divergence
-
-- Entorpy외 정보 이론
-
-- Bayes Rule
-
-- 모수적 방법론과 비모수적 방법론
-
 - A/B Test
 
-- 중심극한정리
-
-- 통계학이란
-
 - 심슨의 역설
+
+- 상관 관계와 인과 관계
 
 ## 선형대수학
 - 선형성과 비선형성
@@ -85,16 +83,63 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - 코사인 유사도
 
+- 다중공선성
+
 - 퓨리에 변환
 
 ## Machine Learning
+- 편향과 분산
+
+- Linear Regression
+
+- Logistic Regression
+
+- SVM
+
+- 디시젼트리와 랜덤 포레스트
+
+- 배깅
+
+- 부스팅
+
+- 앙상블
+
+- ROC-curve
 
 ## Deep Learning
-- 빈도주의 관점의 딥러닝
+- 경사하강법
 
-- 베이지안 관점의 딥러닝
+- local minimum과 global minimum
+
+- Optimazor
+
+- Batch Norm
+
+- MLP
+
+- CNN
+
+- RNN
+
+- LSTM
+
+- GRU
+
+- Transformer
+
+- AutoEncoder
+
+- VAE
+
+- GAN
+
+- BERT
+
+- GPT
 
 - Representation Learning
+
+- 모델의 overfitting이 일어났을 때 해결하는 방법
 
 - 데이터 불균형에 대응 하는 방법
 
@@ -128,6 +173,34 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - dict 동작 구조 (key에 list나 tuple을 쓸 수 있는가)
 
+- 파이썬 Mutable과 Immutable의 차이
+
+- 파이썬 Map에서 Value로 정렬하는 방법
+
+- 파이썬 List Comprehension
+
+- 파이썬 list와 tuple의 차이
+
+- 파이썬 list 구현 방식, 구현 방식별 insert / get 시간 복잡도
+
+- 파이썬 dictionary 구현 방식, 구현 방식 insert / get 시간 복잡도
+
+- 파이썬 dequeue 구현 방식, 구현 방식별 insert / get 시간 복잡도
+
+- 파이썬에서 key가 될 수 있는 것은? list는 키가 될 수 있을까?
+
+- 파이썬에서의 해쉬 맵 내부구조를 설명하세요.
+
+- 파이썬에서의 멀티 스레드의 단점
+
+- Linked List에서 순환 구조를 찾는 방법
+
+- Binary Search 사용시 최악의 경우의 예와 대처 방법
+
+- Stable sorting이란?
+
+- 클래스는 무엇이며, 클래스의 장점은 무엇인가요?
+
 ## CS
 
 - 배열
@@ -139,6 +212,12 @@ Machine-Learning-Engineer-Interview 질문 정리
 - 큐
 
 - 덱(deque)
+
+- 자바에서의 상속에 대해서 설명
+
+- 자바에서의 추상클래스는 인스턴스 생성이 가능한가?
+
+- 자바에서의 오버라이딩과 오버로딩의 차이
 
 ## MLOps
 - ML-System-design-pattern
