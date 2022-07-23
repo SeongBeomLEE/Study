@@ -5,13 +5,17 @@ Machine-Learning-Engineer-Interview 질문 정리
 ## 확률과 통계
 - 통계학이란
 
+- 평균과 중앙값
+
+- 심슨의 역설
+
+- 상관 관계와 인과 관계
+
 - 선험적 확률과 경험적 확률
 
 - 기댓값, 분산, 공분산, 상관계수, 공분산 행렬
 
 - 확률변수, 확률 분포, 확률 밀도 함수, 누적 분포 함수, 확률 질량 함수, 누적 질량 함수
-
-- 모수적 모델, 비모수적 모델
 
 - 이항 분포
 
@@ -41,15 +45,17 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - 1종 오류와 2종 오류
 
+- 모수적 모델, 비모수적 모델
+
 - 빈도주의 통계와 베이지안 통계
 
 - 베이즈 정리
 
 - Maximum Likelihood Estimation와 Maximum A Posterior
 
-- Entorpy외 정보 이론
+- Entorpy와 정보 이론
 
-- MSE와 CE
+- Cross Entropy
 
 - KL-Divergence
 
@@ -59,17 +65,9 @@ Machine-Learning-Engineer-Interview 질문 정리
 - 베타 분포
     - https://m.blog.naver.com/mykepzzang/220843077734
 
-- confusion matrix
-
 - Boxplot
 
-- 평균과 중앙값
-
 - A/B Test
-
-- 심슨의 역설
-
-- 상관 관계와 인과 관계
 
 ## 선형대수학
 - 선형성과 비선형성
@@ -88,7 +86,11 @@ Machine-Learning-Engineer-Interview 질문 정리
 - 퓨리에 변환
 
 ## Machine Learning
+- Confusion Matrix
+
 - 편향과 분산
+
+- ROC-curve
 
 - Linear Regression
 
@@ -96,15 +98,17 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - SVM
 
-- 디시젼트리와 랜덤 포레스트
+- Decision Tree
 
 - 배깅
 
 - 부스팅
 
-- 앙상블
+- RandomForest
 
-- ROC-curve
+- AdaBoost
+
+- 앙상블
 
 ## Deep Learning
 - 경사하강법
@@ -130,6 +134,7 @@ Machine-Learning-Engineer-Interview 질문 정리
 - AutoEncoder
 
 - VAE
+    - https://hyeongminlee.github.io/post/bnn003_vi/
 
 - GAN
 
