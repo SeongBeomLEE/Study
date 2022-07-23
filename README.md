@@ -229,6 +229,12 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - Docker
 
+- Airflow
+
+- GCP
+
+- 쿠버네티스
+
 ## Project
 
 ## 인성 및 공통
