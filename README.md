@@ -2,7 +2,7 @@
 
 Machine-Learning-Engineer-Interview 질문 정리
 
-## 확률과 통계
+## [확률과 통계](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Probability-and-Statistics.md)
 - 통계학이란
 
 - 평균과 중앙값
@@ -69,7 +69,7 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - A/B Test
 
-## 선형대수학
+## [선형대수학](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Linear-Algebra.md)
 - 선형성과 비선형성
     - 그러면 왜 딥러닝은 비선형변환을 강조하는 것일까?? 이 부분에 대해서 생각해보면 딥러닝 자체가 행렬과 행렬의 곱이기 때문에 여기 까지는 선형 변환이라고 할 수 있다. 근데 인풋 행렬로 표현된 아웃풋이 활성화 함수에 의하여 값의 변형이 일어니기 때문에 서로 다른 인풋이 동일한 아웃풋을 생성할 수도 있기 때문에 비선형 변환이라고 표현하는 것 같다.
 
