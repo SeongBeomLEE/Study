@@ -1,6 +1,10 @@
 # Machine-Learning-Engineer-Interview
 
-Machine-Learning-Engineer-Interview 질문 정리
+Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습니다!
+
+노션에서 보고 싶으시면 해당 [링크](https://abyssinian-decade-924.notion.site/712eda7179d34e9393c49ff8fbd1d873?v=705a41dac2b84b4c8fedf0141ca2e3c6)를 클릭해주세요!(노션은 복습의 용도로 정리하고 있어서 업데이트가 느릴 수 있습니다!)
+
+제가 정리한 내용 중에 질문 or 피드백이 있으시다면 언제든지 PR과 issue를 남겨주세요!
 
 ## [확률과 통계](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Probability-and-Statistics.md)
 - 통계학이란
@@ -70,20 +74,43 @@ Machine-Learning-Engineer-Interview 질문 정리
 - A/B Test
 
 ## [선형대수학](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Linear-Algebra.md)
+- 선형대수학이란
+
 - 선형성과 비선형성
-    - 그러면 왜 딥러닝은 비선형변환을 강조하는 것일까?? 이 부분에 대해서 생각해보면 딥러닝 자체가 행렬과 행렬의 곱이기 때문에 여기 까지는 선형 변환이라고 할 수 있다. 근데 인풋 행렬로 표현된 아웃풋이 활성화 함수에 의하여 값의 변형이 일어니기 때문에 서로 다른 인풋이 동일한 아웃풋을 생성할 수도 있기 때문에 비선형 변환이라고 표현하는 것 같다.
+
+- 벡터, 벡터의 기본 연산
+
+- 벡터의 norm
+
+- 선형독립과 선형종속
+
+- 코사인 유사도와 내적 유사도
+
+- 행렬곱
+
+- 행벡터의 의미와 벡터의 내적
+
+- 선형변환
+
+- 행렬식의 기하학적 의미
 
 - 고윳값과 고유벡터
 
 - PCA
 
-- 선형변환
+- EVD
 
-- 코사인 유사도
+- SVD
+
+- 선형대수와 푸리에 변환
+
+- 순환행렬과 컨볼류션
+
+- 순환행렬의 고유벡터, 그리고 푸리에 행렬
+
+- 상관계수는 벡터의 내적이다
 
 - 다중공선성
-
-- 퓨리에 변환
 
 ## Machine Learning
 - Confusion Matrix
@@ -174,10 +201,6 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - global과 nonlocal
 
-- set 동작 구조
-
-- dict 동작 구조 (key에 list나 tuple을 쓸 수 있는가)
-
 - 파이썬 Mutable과 Immutable의 차이
 
 - 파이썬 Map에서 Value로 정렬하는 방법
@@ -186,13 +209,15 @@ Machine-Learning-Engineer-Interview 질문 정리
 
 - 파이썬 list와 tuple의 차이
 
-- 파이썬 list 구현 방식, 구현 방식별 insert / get 시간 복잡도
+- 파이썬 set 구현 방식
 
-- 파이썬 dictionary 구현 방식, 구현 방식 insert / get 시간 복잡도
+- 파이썬 list 구현 방식, insert / get 시간 복잡도
 
-- 파이썬 dequeue 구현 방식, 구현 방식별 insert / get 시간 복잡도
+- 파이썬 dictionary 구현 방식, insert / get 시간 복잡도
 
-- 파이썬에서 key가 될 수 있는 것은? list는 키가 될 수 있을까?
+- 파이썬 dequeue 구현 방식, insert / get 시간 복잡도
+
+- 파이썬에서 key가 될 수 있는 것은? list는 키가 될 수 있을까? (key에 list나 tuple을 쓸 수 있는가)
 
 - 파이썬에서의 해쉬 맵 내부구조를 설명하세요.
 
@@ -234,7 +259,3 @@ Machine-Learning-Engineer-Interview 질문 정리
 - GCP
 
 - 쿠버네티스
-
-## Project
-
-## 인성 및 공통
