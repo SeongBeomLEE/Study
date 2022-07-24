@@ -80,9 +80,11 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 벡터, 벡터의 기본 연산
 
-- 벡터의 norm
+- 선형독립과 선형종속 그리고 다중공선성
 
-- 선형독립과 선형종속
+- L1 norm과 L2 norm + L1 Regularization과 L2 Regularization
+
+- 벡터의 내적
 
 - 코사인 유사도와 내적 유사도
 
@@ -109,8 +111,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - 순환행렬의 고유벡터, 그리고 푸리에 행렬
 
 - 상관계수는 벡터의 내적이다
-
-- 다중공선성
+- 기저 벡터
 
 ## Machine Learning
 - Confusion Matrix
