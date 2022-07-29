@@ -2,12 +2,10 @@
 
 Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습니다!
 
-노션에서 보고 싶으시면 해당 [링크](https://abyssinian-decade-924.notion.site/712eda7179d34e9393c49ff8fbd1d873?v=705a41dac2b84b4c8fedf0141ca2e3c6)를 클릭해주세요!(노션은 복습의 용도로 정리하고 있어서 업데이트가 느릴 수 있습니다!)
-
 제가 정리한 내용 중에 질문 or 피드백이 있으시다면 언제든지 PR과 issue를 남겨주세요!
 
 ## [ML 서비스 개발 시 고려 사항](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/ML-Service.md)
-- ML 서비스를 개발하는데 너무 좋은 글 인것 같아서 10번, 100번 읽고 싶어서 복사해놨다. 
+- ML 서비스 개발 시 고려 사항에 대해서 이야기 해주는 글인데, 너무 좋은 글 인것 같아서 10번, 100번 읽고 싶어서 복사해놨다. 
 
 - 본 글의 출처는 해당 [링크](https://www.facebook.com/lee.eunjo.3/posts/10223852483158298)이다.
 
@@ -76,6 +74,8 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - Overfitting과 Underfitting
 
+- 회귀 분석
+
 - 감마 분포
     - https://m.blog.naver.com/mykepzzang/220842759639
 
@@ -124,14 +124,11 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - 순환행렬의 고유벡터, 그리고 푸리에 행렬
 
 - 상관계수는 벡터의 내적이다
+
 - 기저 벡터
 
 ## Machine Learning
-- Confusion Matrix
-
-- 편향과 분산
-
-- ROC-curve
+- 경사하강법
 
 - Linear Regression
 
@@ -141,9 +138,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - Decision Tree
 
-- 배깅
-
-- 부스팅
+- 배깅과 부스팅
 
 - RandomForest
 
@@ -151,9 +146,13 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 앙상블
 
-## Deep Learning
-- 경사하강법
+- Confusion Matrix
 
+- 편향과 분산
+
+- ROC-curve
+
+## Deep Learning
 - local minimum과 global minimum
 
 - Optimazor
