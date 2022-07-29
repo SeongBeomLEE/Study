@@ -6,6 +6,11 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 제가 정리한 내용 중에 질문 or 피드백이 있으시다면 언제든지 PR과 issue를 남겨주세요!
 
+## [ML 서비스 개발 시 고려 사항](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/ML-Service.md)
+- ML 서비스를 개발하는데 너무 좋은 글 인것 같아서 10번, 100번 읽고 싶어서 복사해놨다. 
+
+- 본 글의 출처는 해당 [링크](https://www.facebook.com/lee.eunjo.3/posts/10223852483158298)이다.
+
 ## [확률과 통계](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Probability-and-Statistics.md)
 - 통계학이란
 
@@ -63,6 +68,14 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - KL-Divergence
 
+- MSE와 MAE
+
+- 다중공선성
+
+- 변수 선택법
+
+- Overfitting과 Underfitting
+
 - 감마 분포
     - https://m.blog.naver.com/mykepzzang/220842759639
 
@@ -88,14 +101,6 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 코사인 유사도와 내적 유사도
 
-- 행렬곱
-
-- 행벡터의 의미와 벡터의 내적
-
-- 선형변환
-
-- 행렬식의 기하학적 의미
-
 - 고윳값과 고유벡터
 
 - PCA
@@ -103,6 +108,14 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - EVD
 
 - SVD
+
+- 행렬곱
+
+- 행벡터의 의미와 벡터의 내적
+
+- 선형변환
+
+- 행렬식의 기하학적 의미
 
 - 선형대수와 푸리에 변환
 
@@ -233,7 +246,6 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - 클래스는 무엇이며, 클래스의 장점은 무엇인가요?
 
 ## CS
-
 - 배열
 
 - 연결리스트
