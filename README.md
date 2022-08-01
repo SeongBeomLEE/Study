@@ -103,11 +103,11 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 고윳값과 고유벡터
 
-- PCA
-
 - EVD
 
 - SVD
+
+- PCA
 
 - 행렬곱
 
@@ -136,15 +136,13 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - SVM
 
-- Decision Tree
-
 - 배깅과 부스팅
+
+- Decision Tree
 
 - RandomForest
 
 - AdaBoost
-
-- 앙상블
 
 - Confusion Matrix
 
@@ -171,7 +169,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - Transformer
 
-- AutoEncoder
+- AE
 
 - VAE
     - https://hyeongminlee.github.io/post/bnn003_vi/
