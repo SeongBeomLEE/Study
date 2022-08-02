@@ -127,7 +127,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 기저 벡터
 
-## Machine Learning
+## [Machine Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Machine-Learning.md)
 - 경사하강법
 
 - Linear Regression
@@ -136,13 +136,17 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - SVM
 
-- 배깅과 부스팅
+- 앙상블
 
 - Decision Tree
+
+- 배깅과 부스팅
 
 - RandomForest
 
 - AdaBoost
+
+- Gradient Boosting
 
 - Confusion Matrix
 
@@ -150,7 +154,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - ROC-curve
 
-## Deep Learning
+## [Deep Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Deep-Learning.md)
 - local minimum과 global minimum
 
 - Optimazor
