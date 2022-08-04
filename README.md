@@ -78,15 +78,23 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 회귀 분석
 
+- R-square
+
+- log를 사용하는 이유
+
+- likelihood와 probability의 차이
+
+- Sampling과 Resampling
+
+- Bootstrap
+
+- A/B Test
+
 - 감마 분포
     - https://m.blog.naver.com/mykepzzang/220842759639
 
 - 베타 분포
     - https://m.blog.naver.com/mykepzzang/220843077734
-
-- Boxplot
-
-- A/B Test
 
 ## [선형대수학](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Linear-Algebra.md)
 - 선형대수학이란
