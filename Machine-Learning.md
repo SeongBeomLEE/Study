@@ -1,5 +1,21 @@
 # Machine Learning
 
+## Confusion Matrix
+- Confusion Matrix는 분류 모델의 성능 평가 지표를 계산하기 위해 활용되는 표임
+- 이진 분류를 기준으로(0 - Negative, 1 - Positive) TP, FP, TN, FN으로 나눌 수 있음
+- TP는 살제 Positive인 값을 모델이 Positive로 예측한 경우를 말함(제대로 예측)
+- FP는 실제 Negative인 값을 모델이 Positive로 예측한 경우를 말함(잘못 예측)
+- TN는 실제 Negative인 값을 모델이 Negative로 예측한 경우를 말함(제대로 예측)
+- FN는 살제 Positive인 값을 모델이 Negative로 예측한 경우를 말함(잘못 예측)
+- Accuracy는 모델이 얼마나 제대로 분류했는지를 나타내는 지표이기 때문에 (TP + TN) / (TP + FP + TN + FN) 로 계산할 수 있음
+- Precision(Positive Predictive Value)는 예측 결과가 Positive일 때 실제 값도 Positive일 확률을 의미하는 지표이기 때문에 TP / (TP + FP) 로 계산할 수 있음
+- Recall(True Positive Rate)는 실제 값이 Positive일 때 예측 결과도 Positive일 확률을 의미하는 지표이기 때문에 TP / (TP + FN) 로 계산할 수 있음
+- Precision과 Recall은 서로 trade-off의 관계이기 때문에 1개의 값이 높아지면 반대의 값이 낮아지는 경향을 가짐
+- 이에 Precision과 Recall의 조화 평균인 F1 score를 계산하여 불균형 데이터를 평가할 때의 지표로 사용하며 (2 * P * R) / (P + R)로 계산할 수 있음
+- True Negative Rate(Specificity)는 실제 값이 Negative일 때 예측이 Negative인 비율을 말하기 때문에 TN / (TN + FP) 로 계산할 수 있음
+- Negative Predictive Value는 예측 값이 Negative일 때 실제 값이 Negative인 비율을 말하기 때문에 TN / (TN + FN) 로 계산할 수 있음
+- 따라서 Precision <-> Negative Predictive Value / Recall <-> Specificity 의 관계를 가짐
+
 ## 경사하강법
 - 주어진 목적 함수의 최솟값을 찾아가는 알고리즘으로, 목적 함수의 기울기와 학습률을 곱하여 파라미터에 -를 해줌으로써 파라미터를 업데이트 해나감
 - 경사하강법이 가능한 이유는 목적 함수의 최솟 값에 가까워질수록 미분 계수, 즉 기울기의 값이 작아지기 때문에 학습률만 잘 설정한다면 최솟값에 가까워질 수 있는 것임
@@ -59,15 +75,19 @@ Classifier)로 만드는 것
 
 ## RandomForest
 - Bagging 방식을 활용한 Decision Tree Base의 대표적인 Ensemble Model이 RandomForest임
-- Bagging과 Randomized Decision Tree를 결합한 방식으로 볼 수 있음, 데이터도 다양하게 만들고, 활용하는 변수도 랜덤하게 선택하여 여러 Tree를 병렬적(독립적)으로 학습하여 앙상블 하는 것이 바로 RandomForest임
+- Bagging과 Randomized Decision Tree를 결합한 방식으로 볼 수 있음
+- Bootstrap을 바탕으로 다양한 데이터 셋을 만들고, 각 데이터셋을 이용하여 DT 모델을 사용하는데, 활용 변수도 랜덤하게 선택함
+- 이렇게 여러개의 DT를 병렬적(독립적)으로 학습하여 앙상블 하는 것이 바로 RandomForest임
 - 즉 DT를 Bagging 방식으로 앙상블 한 것이 바로 RandomForest라고 할 수 있음(과적합된 Tree를 앙상블하자)
 
 ## AdaBoost
-- 약 분류기로 stump(depth가 1인 매우 작은 DT)를 사용하고, 학습 시에 매 Round마다 Observation의 Weight 값을 계산하고, 틀리는 Observation의 Weight를 Up 시켜서, 잘 못 분류되 데이터를 더욱더 잘 맞추게 하는 방법이 바로 AdaBoost임
+- AdaBoost는 오분류된 데이터를 더 잘 맞추는 모델을 연속적으로 만드는 것이 목표인 모델
+- 방법은 오분류된 데이터의 가중치를 높여서, 오분류된 데이터가 학습에 더 자주 포함되게 만드는 것
+- 약 분류기로 stump(depth가 1인 매우 작은 DT)를 사용하고, 학습 시에 매 Round마다 Observation의 Weight 값을 계산하고, 틀리는 Observation의 Weight를 Up 시켜서, 잘못 분류된 데이터를 더 잘 맞추게 하는 방법이 바로 AdaBoost임
 - 즉 DT를 부스팅 방식으로 앙상블 한 것이 바로 AdaBoost라고 할 수 있음(과소적합된 Tree를 앙상블하자)
 
 ## Gradient Boosting
-- AdaBoost는 이전 모델의 단점을 데이터에서 찾는 방식이라면, Gradient Boosting은 모델의 잔여 오차(residual error)를 최소화하는 방식으로 모델을 순차적으로 학습시키는 방법임
+- AdaBoost는 이전 모델의 단점을 데이터에서 찾는 방식이라면, Gradient Boosting은 모델의 예측 값을 바탕으로 데이터의 잔여 오차(residual error)를 계산하여 이를 연속적으로 게속 예측하는 방식으로 모델을 학습시키는 방식임
 - 모델 학습 방법이 Gradient Descent 알고리즘을 활용하여 Gradient Boosting이라고 불림
 - 매 Round마다 잔여 오차(residual error)값을 계산하고 Residual을 가지고 Model을 학습하고 전에 학습된 모델의 오차를 보완하는 방향으로 모델이 학습됨
 
