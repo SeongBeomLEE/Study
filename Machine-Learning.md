@@ -16,6 +16,12 @@
 - Negative Predictive Value는 예측 값이 Negative일 때 실제 값이 Negative인 비율을 말하기 때문에 TN / (TN + FN) 로 계산할 수 있음
 - 따라서 Precision <-> Negative Predictive Value / Recall <-> Specificity 의 관계를 가짐
 
+## ROC-curve
+- ROC-curve는 다양한 threshold에 대한 이진분류기의 성능을 한번에 표시한 그래프임
+- 모델을 이용해서 score 분포를 생성하고, 해당 score 분포를 실제 각 클래스에 대한 분포로 변환한 후에, 해당 분포가 서로 겹치는 부분이 적을수록 ROC-curve는 좌상단으로 밀착하게됨
+- ROC-curve의 넓이를 계산한 지표를 AUC라고 부르며, ROC-curve는 좌상단으로 밀착했을 때 가장 좋은 성능을 보이고, 해당 ROC-curve의 AUC 값은 1에 가까워짐
+- 따라서 이진 분류기의 성능이 랜덤이라면 ROC-curve는 단순히 대각선으로 표현되며, 이때의 AUC 값은 0.5임
+
 ## 경사하강법
 - 주어진 목적 함수의 최솟값을 찾아가는 알고리즘으로, 목적 함수의 기울기와 학습률을 곱하여 파라미터에 -를 해줌으로써 파라미터를 업데이트 해나감
 - 경사하강법이 가능한 이유는 목적 함수의 최솟 값에 가까워질수록 미분 계수, 즉 기울기의 값이 작아지기 때문에 학습률만 잘 설정한다면 최솟값에 가까워질 수 있는 것임

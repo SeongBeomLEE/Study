@@ -140,6 +140,8 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 ## [Machine Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Machine-Learning.md)
 - Confusion Matrix
 
+- ROC-curve
+
 - 경사하강법
 
 - Linear Regression
@@ -159,8 +161,6 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - AdaBoost
 
 - Gradient Boosting
-
-- ROC-curve
 
 ## [Deep Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Deep-Learning.md)
 - local minimum과 global minimum
