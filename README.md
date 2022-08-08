@@ -198,6 +198,49 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 데이터 불균형에 대응 하는 방법
 
+## [RecSys](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/RecSys.md)
+- 추천 시스템 이란?
+
+- 추천 시스템에서 사용되는 대이터
+
+- Offline Test와 Online A/B Test
+
+- Association Rule Analysis
+
+- Content-based
+
+- Collaborative Filtering
+
+- 유사도 측정법
+
+- Latent Factor Model
+
+- Matrix Factorization
+
+- Bayesian Personalized Ranking
+
+- Item2Vec
+
+- Approximate Nearest Neighbor
+
+- Neural Collaborative Filtering
+
+- GNN-based
+
+- Session-based
+
+- Context-aware Recommendation
+
+- Factorization Machine
+
+- DeepFM
+
+- Multi-Armed Bandit
+
+- Thompson Sampling
+
+- Cold-start-Problem
+
 ## NLP
 - TF-IDF
 
@@ -207,11 +250,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - N-gram 언어 모델
 
-## RecSys
-- Multi-Armed Bandit
 
-- Cold-start-Problem
-    - content-based Model, 초기 유저 정보 수집
 
 ## Python
 - global interpreter lock
