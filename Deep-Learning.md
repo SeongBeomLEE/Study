@@ -23,6 +23,12 @@
 - 그러나 feature에 계속된 변형을 가하므로, 원래 데이터가 가지고 있던 특성이 사라진다는 단점이 있음
 - 그런데 Batch Norm에 대한 다른 의견으로는 Batch Norm은 Internal Covariate Shift를 해결해주는 것이 아니라, 단순히 기울기의 범위를 일정하게 유지해주기 때문에 (기울기의 크기를 적절하게 유지시켜줌) 성능이 좋은 것이라고 말하는 논문도 있음
 
+## Embedding 이란?
+- Embedding은 주어진 데이터를 낮은 차원의 벡터(vector)로 만들어서 표현하는 방법
+- Embedding 방법은 크게 Sparse Representation과 Dense Representation으로 나뉨
+- Sparse Representation은 one-hot encoding 등과 같이 표현하려는 데이터의 수와 차원의 수가 동일한 Representation 방법으로, 데이터의 수가 많아질수록 벡터의 차원이 한없이 커지고 공간의 낭비가 발생함
+- Dense Representation은 Word2Vec 등과 같이 표현하려는 데이터의 수보다 훨씬 작은 차원으로 나타내는 Representation 방법으로, 공간의 낭비가 발생하지 않는다는 장점이 존재하나 차원 자체가 하이퍼 파라미터이기 때문에 적절한 조정이 핑요함
+
 ## MLP
 - 완전 연결층으로 이루어진 선형모델과 활성화함수를 이루어진 Layer가 deep 하게 이루어진 모델
 

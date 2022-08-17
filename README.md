@@ -169,6 +169,8 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - Batch Norm
 
+- Embedding 이란?
+
 - MLP
 
 - CNN
@@ -249,8 +251,6 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - 언어 모델
 
 - N-gram 언어 모델
-
-
 
 ## Python
 - global interpreter lock
