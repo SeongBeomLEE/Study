@@ -203,7 +203,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 ## [RecSys](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/RecSys.md)
 - 추천 시스템 이란?
 
-- 추천 시스템에서 사용되는 대이터
+- 추천 시스템에서 사용되는 데이터
 
 - Offline Test와 Online A/B Test
 
