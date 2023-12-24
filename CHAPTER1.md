@@ -9,4 +9,6 @@
 - 새로운 아이템을 처음으로 삽입하면 리스트이 제일 끝에 위치시켜서, 기존 키에 재할당을 한다 해도 순서에는 변화가 생기지 않음
 - 그런데 doubly linked list를 사용하기 때문에, OrderedDict의 크기는 일반적인 dict에 비해서 두배로 큼
 ## 두 딕셔너리의 유사점 찾기
-- dict 내의 keys(), items 16p 부터 시작
+- dict 내의 keys() 메소드는 key를 보여주는 key-view 객체를 반환하며, key-view 객체는 집합 연산을 수행할 수 있음
+- dict 내의 items() 메소드는 key,value 쌍을 보여주는 item-view 객체를 반환하며, item-view 객체는 집합 연산을 수행할 수 있음
+- dict 내의 values() 메소드는 value를 보여주는 value-view 객체를 반환하며, value-view 객체는 집합 연산을 수행할 수 없음

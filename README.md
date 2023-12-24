@@ -1,6 +1,6 @@
 # Python Cookbook 공부 기록
 - [CHATER1 자료 구조와 알고리즘](CHAPTER1.md)
-- [CHATER2 문자열과 텍스트]
+- [CHATER2 문자열과 텍스트](CHAPTER2.md)
 - [CHATER3 숫자, 날짜, 시간]
 - [CHATER4 이터레이터와 제너레이터]
 - [CHATER5 파일과 입출력]
