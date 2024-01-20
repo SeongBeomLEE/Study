@@ -5,7 +5,7 @@
 
 ## 진행중
 - [인프런 홍정모의 따라하며 배우는 C언어 강의](inflearn-learn-c/)
-- [이론 관련 실험](Experiment/)
+- [이론 관련 실험](experiment/)
 - [Python CooKbook](python-cookbook-book/)
 - [ML 엔지니어 기본 지식 정리](ml-engineer-interview/)
 
