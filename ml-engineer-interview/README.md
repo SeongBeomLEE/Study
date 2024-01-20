@@ -4,12 +4,12 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 제가 정리한 내용 중에 질문 or 피드백이 있으시다면 언제든지 PR과 issue를 남겨주세요!
 
-## [ML 서비스 개발 시 고려 사항](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/ML-Service.md)
+## [ML 서비스 개발 시 고려 사항](ML-Service.md)
 - ML 서비스 개발 시 고려 사항에 대해서 이야기 해주는 글인데, 너무 좋은 글 인것 같아서 10번, 100번 읽고 싶어서 복사해놨다. 
 
 - 본 글의 출처는 해당 [링크](https://www.facebook.com/lee.eunjo.3/posts/10223852483158298)이다.
 
-## [확률과 통계](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Probability-and-Statistics.md)
+## [확률과 통계](Probability-and-Statistics.md)
 - 통계학이란
 
 - 평균과 중앙값
@@ -96,7 +96,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 - 베타 분포
     - https://m.blog.naver.com/mykepzzang/220843077734
 
-## [선형대수학](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Linear-Algebra.md)
+## [선형대수학](Linear-Algebra.md)
 - 선형대수학이란
 
 - 선형성과 비선형성
@@ -137,7 +137,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 기저 벡터
 
-## [Machine Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Machine-Learning.md)
+## [Machine Learning](Machine-Learning.md)
 - Confusion Matrix
 
 - ROC-curve
@@ -162,7 +162,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - Gradient Boosting
 
-## [Deep Learning](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/Deep-Learning.md)
+## [Deep Learning](Deep-Learning.md)
 - local minimum과 global minimum
 
 - Optimazor
@@ -200,7 +200,7 @@ Machine Learning Engineer가 되기 위한 기본 지식을 정리하고 있습�
 
 - 데이터 불균형에 대응 하는 방법
 
-## [RecSys](https://github.com/SeongBeomLEE/Machine-Learning-Engineer-Interview/blob/main/RecSys.md)
+## [RecSys](RecSys.md)
 - 추천 시스템 이란?
 
 - 추천 시스템에서 사용되는 데이터
