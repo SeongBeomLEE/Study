@@ -17,8 +17,8 @@
 - 이래서 때때로 모든 objects를 "first-class" 라고 부르는 것임 ([First Class functions in Python](https://www.geeksforgeeks.org/first-class-functions-python/))
 
 ### [03_Program_organization > 04_Modules](https://github.com/dabeaz-course/practical-python/blob/master/Notes/03_Program_organization/04_Modules.md)
-- python에서 반복적으로 모듈을 로드하는 것은 이전에 로드한 모듈의 reference를 반환하는 것임 (이는 서로 같은 프로세스일 때만 성립)
-- 이러한 모듈 로드 방식을 싱글톤 패턴이라고 부름 ([Good practice sharing resources between modules?](https://stackoverflow.com/questions/13642654/good-practice-sharing-resources-between-modules))
+- python에서 반복적으로 모듈을 import하면, 모듈을 한번 더 import 하는 것이 아닌, 이전에 로드한 모듈의 reference를 반환하는 것임 (이는 서로 같은 프로세스일 때만 성립)
+- 이러한 모듈 import 방식을 싱글톤 패턴이라고 부름 ([Good practice sharing resources between modules?](https://stackoverflow.com/questions/13642654/good-practice-sharing-resources-between-modules))
 
 
 ### [03_Program_organization > 06_Design_discussion](https://github.com/dabeaz-course/practical-python/blob/master/Notes/03_Program_organization/06_Design_discussion.md)
