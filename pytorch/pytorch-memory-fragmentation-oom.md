@@ -7,6 +7,6 @@
 - 그런데 max_split_size_mb는 하이퍼파라미터로 실험를 통해서 적절한 값을 찾아야 함
 
 ## 참고 자료
-- https://github.com/huggingface/text-generation-inference/issues/1374
-- https://dev.to/shittu_olumide_/how-can-i-set-maxsplitsizemb-to-avoid-fragmentation-in-pytorch-37h9
-- https://iamholumeedey007.medium.com/memory-management-using-pytorch-cuda-alloc-conf-dabe7adec130
+- [Unexpected OOM after warmup for request that has token less than max-batch-prefill-token](https://github.com/huggingface/text-generation-inference/issues/1374)
+- [How can I set max_split_size_mb to avoid fragmentation in Pytorch?](https://dev.to/shittu_olumide_/how-can-i-set-maxsplitsizemb-to-avoid-fragmentation-in-pytorch-37h9)
+- [Memory Management using PYTORCH_CUDA_ALLOC_CONF](https://iamholumeedey007.medium.com/memory-management-using-pytorch-cuda-alloc-conf-dabe7adec130)
