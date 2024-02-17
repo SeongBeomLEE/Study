@@ -20,3 +20,4 @@
 - [파이썬 머신러닝 완벽 가이드](python-ml-perfect-guide-book/)
 - [Pytorch Memory fragmentation로 인한 Out of Memory](pytorch/pytorch-memory-fragmentation-oom.md)
 - [blocking / non-blocking, sync / async, concurrency / parallelism, Process / Thread 정리 + FastAPI 공식 문서 Concurrency and async / await](concurrent-programming/blocking-non-blocking-and-sync-async-and-concurrency-parallelism.md)
+- [코딩테스트 Tip](coding-test-tips/coding-test-tips.md)
