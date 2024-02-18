@@ -1,3 +1,8 @@
+"""
+- https://tech.kakao.com/2021/01/25/2021-kakao-recruitment-round-1/
+- 순위 검색 풀이 참고
+"""
+
 def solution(info, query):
     DB = {}
     langs = ["cpp", "java", "python", "-"]
