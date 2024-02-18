@@ -14,6 +14,7 @@
 - [ML 엔지니어 기본 지식 정리](ml-engineer-interview/)
 - [ML/DL 기본 알고리즘을 numpy로 구현](ml-dl-basic-algorithm-numpy-implement/)
 - [practical-python 공부](practical-python/)
+- [누구나 자료구조와 알고리즘 개정2판 공부](data-structures-and-algorithms/)
 
 ## 완료
 - [인프런 모두를 위한 파이썬 강의 - 기초, 중급, 고급](inflearn-python-for-everyone/)
