@@ -1,4 +1,6 @@
 """
+# 2024 KAKAO WINTER INTERNSHIP 가장 많이 받은 선물
+
 - 목표
 -- 다음 달에 선물을 주고 받을 때, 가장 많은 선물을 받는 친구의 선물의 수를 얻고 싶음
 
@@ -25,7 +27,7 @@ def solution(friends, gifts):
     for gift in gifts:
         A, B = gift.split()
         A_index, B_index = friend_to_index[A], friend_to_index[B]
-        
+
         # 각 친구들에게 선물을 준 횟수 저장
         friend_index_to_swap_gift_count_list[A_index][B_index] += 1
         
